@@ -56,14 +56,15 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\DragUI.cs" />
-    <Compile Include="Assets\Scripts\Mochila.cs" />
     <Compile Include="Assets\Scripts\Movimiento.cs" />
-    <Compile Include="Assets\Scripts\Movimiento2.cs" />
     <Compile Include="Assets\Scripts\Patrulla.cs" />
+    <Compile Include="Assets\Scripts\Movimiento2.cs" />
     <Compile Include="Assets\Scripts\Soldado.cs" />
-    <Compile Include="Assets\Scripts\Waypoint.cs" />
+    <Compile Include="Assets\Scripts\DragUI.cs" />
     <Compile Include="Assets\Scripts\Destroy.cs" />
+    <Compile Include="Assets\Scripts\Waypoint.cs" />
+    <Compile Include="Assets\Scripts\Mochila.cs" />
+    <Compile Include="Assets\Scripts\MovObjet.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -662,13 +663,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="NavMeshComponents.csproj">
-      <Project>{9EEE0163-0206-9D22-E843-9DC40F4E255A}</Project>
-      <Name>NavMeshComponents</Name>
-    </ProjectReference>
     <ProjectReference Include="NavMeshComponentsEditor.csproj">
       <Project>{95A2FE03-6114-E7BB-8D48-086256FEAB90}</Project>
       <Name>NavMeshComponentsEditor</Name>
+    </ProjectReference>
+    <ProjectReference Include="NavMeshComponents.csproj">
+      <Project>{9EEE0163-0206-9D22-E843-9DC40F4E255A}</Project>
+      <Name>NavMeshComponents</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
