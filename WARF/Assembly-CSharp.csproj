@@ -63,8 +63,9 @@
     <Compile Include="Assets\Scripts\DragUI.cs" />
     <Compile Include="Assets\Scripts\Destroy.cs" />
     <Compile Include="Assets\Scripts\Waypoint.cs" />
-    <Compile Include="Assets\Scripts\Mochila.cs" />
     <Compile Include="Assets\Scripts\MovObjet.cs" />
+    <Compile Include="Assets\Scripts\Mochila.cs" />
+    <Compile Include="Assets\Scripts Menu\MenuManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
