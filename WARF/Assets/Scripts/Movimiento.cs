@@ -10,12 +10,13 @@ public class Movimiento : MonoBehaviour
     public float VelocidadRotacion = 5.0f;
     public bool noPuedeMoverse;
     public GameObject ojoAbierto;
-
+    public Movimiento2 movimiento2;
     public Movimiento movimiento;
     //public Movimiento2 mv;
+    public Patrulla patrulla;
+    public Patrulla2 patrulla2;
 
-    
-    
+
     public Rigidbody2D rb;
     public AudioSource caminata;
 
@@ -28,20 +29,11 @@ public class Movimiento : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.Q))
         {
-
-
-
-            //mv.enabled = true;
-
             movimiento.enabled = false;
-
-
-
-
-
-
-
-
+            movimiento2.enabled = true;
+            patrulla.enabled = true;
+            patrulla2.enabled = false;
+            
         }
 
         if (Input.GetKeyDown(KeyCode.Space))

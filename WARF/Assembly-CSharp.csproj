@@ -64,8 +64,10 @@
     <Compile Include="Assets\Scripts\Destroy.cs" />
     <Compile Include="Assets\Scripts\Waypoint.cs" />
     <Compile Include="Assets\Scripts\MovObjet.cs" />
-    <Compile Include="Assets\Scripts\Mochila.cs" />
     <Compile Include="Assets\Scripts Menu\MenuManager.cs" />
+    <Compile Include="Assets\Scripts\Mochila.cs" />
+    <Compile Include="Assets\Scripts\Patrulla2.cs" />
+    <Compile Include="Assets\Scripts\TriggerPlayer.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

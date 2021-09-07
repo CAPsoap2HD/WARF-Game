@@ -11,9 +11,10 @@ public class Movimiento2 : MonoBehaviour
     public bool noPuedeMoverse;
     public GameObject ojoAbierto;
 
+    public Movimiento2 movimiento2;
     public Movimiento movimiento;
-    //public Movimiento2 mv;
-
+    public Patrulla patrulla;
+    public Patrulla2 patrulla2;
 
 
     public Rigidbody2D rb;
@@ -29,19 +30,10 @@ public class Movimiento2 : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Q))
         {
 
-
-
-            //mv.enabled = true;
-
-            movimiento.enabled = false;
-
-
-
-
-
-
-
-
+            movimiento.enabled = true;
+            movimiento2.enabled = false;
+            patrulla.enabled = false;
+            patrulla2.enabled = true;
         }
 
         if (Input.GetKeyDown(KeyCode.Space))
