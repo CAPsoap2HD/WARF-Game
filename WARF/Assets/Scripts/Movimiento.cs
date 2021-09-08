@@ -36,21 +36,23 @@ public class Movimiento : MonoBehaviour
             
         }
 
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.E))
         {
+            patrulla.enabled = false;
+            patrulla2.enabled = false;
+            if (Input.GetKeyDown(KeyCode.E))
+            {
+                patrulla.enabled = true;
+                patrulla2.enabled = false;
 
 
+
+            }
 
 
         }
+       
 
-        if (Input.GetKeyUp(KeyCode.Space))
-        {
-
-
-
-
-        }
 
         Vector3 mov = new Vector3(
             Input.GetAxisRaw("Horizontal"),

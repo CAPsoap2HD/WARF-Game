@@ -59,15 +59,17 @@
     <Compile Include="Assets\Scripts\Movimiento.cs" />
     <Compile Include="Assets\Scripts\Patrulla.cs" />
     <Compile Include="Assets\Scripts\Movimiento2.cs" />
+    <Compile Include="Assets\Scripts\Patrulla2.cs" />
     <Compile Include="Assets\Scripts\Soldado.cs" />
+    <Compile Include="Assets\Scripts\TriggerPlayer.cs" />
     <Compile Include="Assets\Scripts\DragUI.cs" />
     <Compile Include="Assets\Scripts\Destroy.cs" />
     <Compile Include="Assets\Scripts\Waypoint.cs" />
     <Compile Include="Assets\Scripts\MovObjet.cs" />
     <Compile Include="Assets\Scripts Menu\MenuManager.cs" />
     <Compile Include="Assets\Scripts\Mochila.cs" />
-    <Compile Include="Assets\Scripts\Patrulla2.cs" />
-    <Compile Include="Assets\Scripts\TriggerPlayer.cs" />
+    <Compile Include="Assets\Scripts\PlayerDestroy.cs" />
+    <Compile Include="Assets\Scripts\DogDestroy.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

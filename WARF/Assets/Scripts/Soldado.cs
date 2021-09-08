@@ -20,9 +20,9 @@ public class Soldado : MonoBehaviour
         
     }
 
-    public void OnTriggerEnter2D(Collider2D other)
+    public void OnTriggerEnter2D(Collider2D collision)
     {
-        if (other.gameObject.CompareTag("Paracetamol"))
+        if (collision.tag == "Paracetamol")
         {
             Debug.Log("eee");
             Destroy(paracetamol);

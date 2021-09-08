@@ -25,19 +25,21 @@ public class Mochila : MonoBehaviour
      
     }
 
-    public void OnTriggerEnter(Collider other)
+    public void OnTriggerEnter2D(Collider2D collision)
     {
-        if (other.gameObject.CompareTag("Player"))
+        if (collision.tag == "Perro")
         {
+
+            
             mochila.SetActive(true);
            
         }
         
        
     }
-    public void OnTriggerExit(Collider other)
+    public void OnTriggerExit2D(Collider2D collision)
     {
-        if (other.gameObject.CompareTag("Player"))
+        if (collision.tag == "Perro")
         {
             mochila.SetActive(false);
            

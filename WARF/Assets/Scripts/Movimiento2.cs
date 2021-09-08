@@ -36,18 +36,18 @@ public class Movimiento2 : MonoBehaviour
             patrulla2.enabled = true;
         }
 
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.E))
         {
+            patrulla.enabled = false;
+            patrulla2.enabled = false;
+            if (Input.GetKeyDown(KeyCode.E))
+            {
+                patrulla.enabled = false;
+                patrulla2.enabled = true;
 
 
 
-
-        }
-
-        if (Input.GetKeyUp(KeyCode.Space))
-        {
-
-
+            }
 
 
         }
