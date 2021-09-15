@@ -56,6 +56,7 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\PlayerDestroy.cs" />
     <Compile Include="Assets\Scripts\Movimiento.cs" />
     <Compile Include="Assets\Scripts\Patrulla.cs" />
     <Compile Include="Assets\Scripts\Movimiento2.cs" />
@@ -67,9 +68,10 @@
     <Compile Include="Assets\Scripts\Waypoint.cs" />
     <Compile Include="Assets\Scripts\MovObjet.cs" />
     <Compile Include="Assets\Scripts Menu\MenuManager.cs" />
-    <Compile Include="Assets\Scripts\Mochila.cs" />
-    <Compile Include="Assets\Scripts\PlayerDestroy.cs" />
     <Compile Include="Assets\Scripts\DogDestroy.cs" />
+    <Compile Include="Assets\Scripts\Mochila.cs" />
+    <Compile Include="Assets\Scripts\Barril.cs" />
+    <Compile Include="Assets\Scripts\TriggerDog.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
